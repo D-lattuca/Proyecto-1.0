@@ -81,7 +81,7 @@ a{
     justify-content: space-evenly;
     background-color: rgb(232,224,228);
     opacity: 0.7;
-    height: 13%;
+    height: auto;
     width: 96.8%;
     border:1px solid #eee;
     border:0.063rem solid rgb(249, 246, 238);
@@ -197,7 +197,11 @@ a{
     text-decoration: none;
 
 }
-
+.divSobrenosotros{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 
 @media (max-width: 768px) {
