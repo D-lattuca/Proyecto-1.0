@@ -3,6 +3,7 @@ html{
 body{
     padding: 90px 20px 0;
     background: rgb(249, 246, 238); 
+    text-decoration: none;
 }
 .fondo{
     background-image: url(https://earlygame.com/uploads/images/_1200x630_crop_center-center_82_none/mafia-5.jpg?mtime=1653936839);
@@ -14,21 +15,27 @@ body{
 ul li{
     text-decoration: none;
 }
-.textosT{
+.textoContactanos{
     font-family: 'Italianno', cursive;
     color: black;
     font-size:xx-large;
 }
+.textosT{
+    font-family: 'Italianno', cursive;
+    color: black;
+    font-size:xx-large;
+    text-align: center;
+}
 .textoM{
     font-family: 'Italianno', cursive;
-    font-size: 50px;
+    font-size: xx-large;
     text-decoration: none;
     text-decoration: black;
     text-align: center;
 }
 .textoD{
     font-family: 'Italianno', cursive;
-    font-size: 50px;
+    font-size: xx-large;
     text-decoration: none;
     text-decoration: black;
     text-align: center;
@@ -151,7 +158,7 @@ header li {
 .textoL{
     text-align: center;
     font-family: 'Italianno', cursive;
-    font-size: 50px;
+    font-size: xx-large;
     text-decoration: none;
     text-decoration: black;
 }
@@ -202,6 +209,42 @@ a{
     flex-direction: column;
     text-align: center;
 }
+.navbarmedia{
+    visibility: hidden;
+}
+.delivery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+}
+.divDelivery{
+    display: flex;
+    flex-direction: column;
+
+}
+.imagenDelivery{
+    display: flex;
+    justify-content: center;
+    
+}
+.imgD{
+    border-radius: 50%;
+
+}
+.botonD{
+        border: 1px solid whitesmoke;
+        padding: 10px; 
+        background-color: grey; 
+        color: #ffffff;
+        text-decoration: none; 
+        text-transform: uppercase; 
+        font-family:'Josefin Sans', sans-serif;; 
+        border-radius: 50px; 
+}
+.MenusCel{
+    display: none;
+}
 
 
 @media (max-width: 768px) {
@@ -220,9 +263,23 @@ a{
         width: 60%;
     }
     .imagenLocales{
-        width: 100%;
+        display: flex;
+        width: 7rem;
     }
     .imagenMenu:hover{
         width: 100%;
     }
+    .navbar{
+        visibility: hidden;
+    }
+    .navbarmedia{
+        visibility: visible;
+    }
+    .divimagenMenu{
+        display: none;
+    }
+    .MenusCel{
+        display: flex;
+    }
+
 }
